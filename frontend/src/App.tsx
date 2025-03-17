@@ -1,12 +1,9 @@
 import './App.css'
+import Routers from './Routers'
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Test tailwind
-      </h1>
-    </>
+    <Routers />
   )
 }
 
