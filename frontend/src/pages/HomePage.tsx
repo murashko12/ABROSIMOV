@@ -2,7 +2,7 @@ import { useState } from "react"
 import axios from "axios"
 // import ReactQuill from 'react-quill'
 // import 'react-quill/dist/quill.snow.css'
-import Input from "../components/Input"
+import Input from "../components/UI/Input"
 
 const HomePage = () => {
     const [title, setTitle] = useState("");
